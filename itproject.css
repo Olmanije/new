@@ -1,0 +1,1165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.container{
+	padding: 36px 33px 0 35px;  
+	margin: 0 auto;
+	max-width: 1280px;
+	}
+
+.title {
+	font-weight: 700;
+	font-size: 56px;
+}
+
+.kaksmotret{
+	padding-bottom: 40px;
+}
+
+.first_header{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 101.38%;
+	width: 292.63px;
+	height: 88.53px;
+}
+
+.header_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 150%;
+	width: 212.4px;
+	height: 28.96px;
+}
+
+.icon_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 115%;
+}
+
+.date{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.icons{
+	width: 10.25px;
+	height: 9.79px;
+}
+
+.heda{
+	display: flex;
+	align-items: center;
+}
+
+.heda:not(:first-child){
+	margin-left: 20px;
+}
+
+.logo{
+	margin-bottom: 44px;
+}
+
+.logo1{
+	width: 52.19px;
+	height: 30.75px;
+}
+
+.heda p{
+	padding-left: 6px;
+}
+
+.first_right{
+	position: relative;
+	display: flex;
+	justify-content: right;
+	margin-bottom: 50px;
+}
+
+.shade{
+	position: absolute;
+	bottom: -10px;
+	z-index: -1;
+	width: 127.68px;
+	height: 19.1px;
+}
+
+.main_foto{
+	width: 141.66px;
+	height: 165.89px;
+}
+
+.first_bottom{
+	width: 225.36px;
+	height: 93.19px;
+	background: #1E4681;
+	border-radius: 2.32986px;
+	padding: 9px 13px 32px 13px;
+}
+
+.bottom_text{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 130%;
+	color: white;
+}
+
+.sign_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 130%;
+	text-align: right;
+	color: white;
+	padding-top: 7px;
+}
+
+@media (min-width: 768px){
+.header_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	width: 40%;
+}
+
+.icon_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 115%;
+}
+
+.logo1{
+	width: 64.87px;
+	height: 38.23px;
+}
+.first_bottom{
+	width: 280.11px;
+	height: 115.83px;
+}
+.bottom_text{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+}
+.sign_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 130%;
+
+}
+.fr_bot{
+	display: flex;
+	justify-content: center;
+}
+
+.main_foto{
+	width: 176.07px;
+	height: 206.18px;
+}
+.shade{
+	width: 158.69px;
+	height: 23.75px;
+}
+}
+
+@media (min-width: 992px){
+
+	.logo1{
+	width: 112px;
+	height: 66px;
+}
+
+.icon_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 115%;
+}
+.icons{
+	width: 22px;
+	height: 21px;
+}
+
+.first_header{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 101.38%;
+	width: 628px;
+	height: 190px;
+}
+
+.header_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.main_foto{
+	width: 304px;
+	height: 356px;
+}
+
+.shade{
+	width: 274px;
+	height: 41px;
+}
+
+.first_bottom{
+	width: 483.63px;
+	height: 200px;
+	padding: 20px 22px 30px 20px;
+	margin-top: 30px;
+}
+
+.bottom_text{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 130%;
+}
+
+.sign_text{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	padding-top: 25px;
+}
+.kaksmotret{
+	margin-bottom: 60px;
+}
+}
+
+
+
+
+/* Секция О курсе*/
+
+.second_main{
+	margin-top: 20px;
+}
+
+.second_left p{
+	padding-bottom: 15px;
+}
+
+.h2_header{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 150.38%;
+}
+
+.text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+
+.photo{
+	width: 181.86px;
+	height: 182.44px;
+}
+
+.shadow{
+	width: 170.55px;
+	height: 27.49px;
+}
+
+.second_right{
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+.shadow{
+	position: absolute;
+	bottom: -15px;
+	z-index: -1;
+
+}
+.info__image {
+	display: none;
+	
+}
+.shade_2{
+	display: none;
+}
+
+.info{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item{
+	justify-content: space-between;
+	margin-top: 40px;
+	width: 35%;
+}
+
+.item__name{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 130%;
+}
+
+.item__text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 130%;
+}
+
+@media (min-width: 768px){
+.header {
+	font-size: 32px;
+	margin-bottom: 12px;
+	}
+.second_main{
+	display: flex;
+	align-items: center;
+}
+	
+.info{
+	align-items: center;
+	margin-top: 40px;
+	position: relative;
+}
+
+.shade_2{
+	display: block;
+	position: absolute;
+	z-index: -1;
+	top: 140px;
+	left: 30px;
+	width: 150.46px;
+	height: 18.53px;
+}
+
+.info__image {
+
+    display: block;
+    margin-right: 100px;
+    width: 190.37px;
+	height: 150.57px;
+}
+
+.second_left {
+	margin-right: 150px;
+}
+	
+.second_left p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+
+.second_right {
+	width: 200px;
+	height: 200px;
+	margin-top: 0;
+}
+.photo{
+    width: 200.86px;
+    height: 200.44px;
+}
+
+.shadow {
+	width: 100%;
+	bottom: -20px;
+    width: 220.98px;
+    height: 50.17px;
+}
+
+.item {
+	width: 140px;
+	height: 100px;
+	margin-right: 40px;
+}
+
+.item__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.item__text {
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    width: 90%;
+}
+}
+
+@media (min-width: 992px){
+.h2_header h2{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 101.38%;
+	margin-bottom: 50px;
+}
+.second_left p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size:24px;
+	line-height: 150%;
+	width: 80%;
+}
+
+.photo{
+	width: 300px;
+	height: 300px;
+}
+.second_right{
+	height: 300px;
+}
+
+.shadow{
+	width: 366px;
+	height: 59px;
+}
+
+.info__image{
+	width: 200px;
+	height: 160px;
+}
+
+.shade_2{
+	width: 160px;
+	height: 32px;
+}
+
+.item__name{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 130%;
+}
+
+.item__text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	width: 150px;
+}
+
+.about{
+	margin-bottom: 60px;
+}
+}
+
+
+
+
+
+/* Формат занятий*/
+
+.format{
+	padding-bottom: 30px;
+}
+
+.item_format{
+	margin-bottom: 20px;
+}
+
+.blue_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 130%;
+	color: #1E4681;
+	padding-bottom: 5px;
+}
+
+.h2_header{
+	margin-bottom: 35px;
+}
+
+.format_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 130%;
+	width: 55%;
+}
+
+@media (min-width: 768px){
+.wrap{
+	display: flex;
+	justify-content: space-between;
+	}
+.blue_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	}
+
+.h2_header{
+	margin-bottom: 35px;
+	}
+		
+.format_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	width: 90%;
+	}
+}
+
+@media (min-width: 992px){
+
+.blue_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 130%;
+	}
+
+
+.format_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+}
+
+.item_format{
+	margin-top: 50px;
+}
+
+.format{
+	margin-bottom: 60px;
+}
+}
+
+/* Секция Что узнаем*/
+
+.spisok1{
+margin-left: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+}
+
+.whatweknow{
+padding-bottom: 40px;
+}
+
+@media (min-width: 768px){
+.spisok1{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	width: 55%;
+	}
+}
+@media (min-width: 992px){
+	.spisok1{
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 150%;
+	}
+	.whatweknow{
+		margin-bottom: 100px;
+	}
+}
+
+
+
+/* Секция Программа курса*/
+
+.course_program{
+padding-bottom: 40px;
+}
+
+.item_kvadrat{
+width: 185.92px;
+height: 152.84px;
+background: #FFFFFF;
+box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+border-radius: 13.9792px;
+margin: auto;
+margin-bottom: 30px;
+}
+
+.kvadrat_header{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 130%;
+}
+
+.kvadrat_text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+}
+
+.kvadrat_header{
+padding-bottom: 15px;
+}
+
+.item_kvadrat p{
+padding-left: 10px;
+}
+
+.kvadrat_header1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 130%;
+}
+
+@media (min-width: 768px){
+.wrapper{
+	display: grid;
+   	grid-template-columns: repeat(3, 1fr);
+	gap: 3%;
+	width: 70%;
+}
+
+.item_kvadrat{
+	width: 231.09px;
+	height: 189.97px;
+	background: #FFFFFF;
+	box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+	border-radius: 17.375px;
+	margin-bottom: 20px;
+}
+
+.malenkie_fotki{
+	width: 231.09px;
+	height: 92.67px;
+}
+.kvadrat_header {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 130%;
+}
+
+.kvadrat_header1{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 100%;
+}
+
+.kvadrat_header1{
+	padding-bottom: 8px;
+}
+
+.kvadrat_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+}
+.kvadrat_header{
+	padding-bottom: 20px;
+	}
+
+.course_program{
+	padding-bottom: 80px;
+	}
+}
+
+@media (min-width: 992px){
+.course_program{
+	margin-bottom: 100px
+}
+.wrapper{
+	margin-top: 100px;
+}
+
+.item_kvadrat{
+	background: #FFFFFF;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	width: 399px;
+	height: 328px;
+}
+
+.malenkie_fotki{
+	width: 399px;
+	height: 160px;
+}
+
+.kvadrat_header{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 130%;
+	padding-bottom: 45px;
+}
+
+.kvadrat_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 130%;
+}
+
+.kvadrat_header1{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 130%;
+}
+
+}
+
+
+/* Секция Курс прошло уже 1616 человек*/
+
+.kurs_proshlo{
+    background-color: #EFEFEF;
+    padding-bottom: 50px;
+}
+
+.ekaterina_about{
+	width: 445.12px;
+    height: 250.2px;
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    padding: 20px 21px 14px 21px;
+}
+
+.ekaterina_foto{
+    display: flex;
+    align-items: center;
+}
+
+.ekaterina_portret{
+    width: 80px;
+	height: 84px;
+	margin-right: 15px;
+}
+
+.ima_text{
+    padding-bottom: 15px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 101.38%;
+}
+
+@media (min-width: 768px){
+.h2_header{
+	font-size: 23px;
+}
+
+.kurs_proshlo{
+	padding-top: 30px;
+	padding-bottom:  80px;
+}
+.text{
+	font-size: 14px;
+}
+.ima_text{
+	font-size: 17px;
+}
+.ekaterina_portret{
+	width: 110.04px;
+	height: 105.88px;
+}
+.ekaterina_about{
+	width: 500.12px;
+    height: 300.2px;
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    padding: 22px 23px 16px 23px;
+}
+.ekaterina_logo{
+	width: 20px;
+	height: 20px;
+}
+}
+
+@media (min-width: 992px){
+
+.ekaterina_about{
+	width: 791px;
+	height: 451px;
+	background: #FFFFFF;
+	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+}
+
+.ekaterina_about p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+.ekaterina_portret{
+	width: 190px;
+	height: 169px;
+}
+
+.ekaterina_foto p{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 101.38%;
+}
+
+.ekaterina__logo{
+	width: 32px;
+	height: 32px;
+}
+}
+
+
+/* Секция price*/
+
+.price {
+	background-color: #9dc9c8;
+	padding-bottom: 80px;
+	padding-top: 70px;
+}
+
+.title {
+font-size: 35px;
+}
+
+.price__block {
+	margin-bottom: 100px;
+}
+
+.price__name {
+	font-size: 26px;
+}
+
+ .price__item p {
+	padding-bottom: 5px;
+ }
+
+ 
+.price__value {
+	font-size: 50px;
+}
+
+.price__footer {
+	display: flex;
+}
+
+.price__title {
+	margin-bottom: 54px;
+}
+
+.price__item {
+	width: 294px;
+}
+
+.price__item:not(:last-child) {
+	margin-right: 70px;
+}
+
+.price__itemHeading {
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.price__itemText {
+	font-size: 18px;
+}
+@media (min-width: 768px){
+	.title {
+		font-size: 38px;
+		}
+		.price__value {
+			font-size: 50px;
+		}
+		.price__name {
+			font-size: 28px;
+		}
+		.price__item p{
+			font-size: 15px;
+		}
+		.price__block {
+			margin-bottom: 50px;
+		}
+		.price {
+			background-color: #9dc9c8;
+			padding-bottom: 120px;
+			padding-top: 100px;
+}
+.container{
+	padding-left: 50px;
+}
+}
+
+@media (min-width: 992px){
+.price__title{
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 101.38%;
+	}
+
+.price__name{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 101.38%;
+	}
+
+.price__value{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 101.38%;
+}
+
+.price__item p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 101.38%;
+	padding: 10px;
+}
+
+.price {
+	background-color: #9dc9c8;
+	padding-bottom: 200px;
+	padding-top: 100px;
+}
+}
+
+
+/* Section footer*/
+
+.footer {
+	background-color: black;
+	padding-bottom: 50px;
+	color: white;
+}
+
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 146px;
+}
+
+.footer__logo {
+	width: 50px;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.footer__socials {
+	display: flex;
+}
+
+.footer__link:not(:last-child) {
+	margin-right: 18px;
+}
+
+.footer__icon {
+	width: 15px;
+	height: 15px;
+}
+
+.footer__itemTitle{font-size: 50px;}
+	
+
+
+.footer__item {
+	display: flex;
+	align-items: center;
+}
+
+.footer__item:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.footer__itemImage {
+	width: 15px;
+	width: 15px;
+	margin-right: 22px;
+}
+
+.footer__copyright{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 101.38%;;
+}
+
+.footer__optional{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 101.38%;
+}
+
+
+@media (max-width: 576px) {
+
+.footer__left {
+	margin-bottom: 48px;
+	}
+.footer__wrapper {
+	flex-direction: column;
+	justify-content: flex-start;
+	}
+.footer {
+	background-color: black;
+	padding-top: 20px;
+}
+}
+
+@media (min-width: 768px) {
+.footer__optional{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 101.38%;
+}
+
+.footer__copyright{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 101.38%;}
+
+.footer__icon {
+	width: 19.69px;
+	height: 19.69px;
+}
+.footer__logo {
+	width: 66.6px;
+	height: 39.38px;
+}
+.footer__itemImage {
+	width: 15.64px;
+	height: 15.64px;
+}
+}
+
+@media (min-width: 992px) {
+	
+.footer__optional{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 101.38%;
+	}
+	
+.footer__copyright{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 101.38%;
+}
+	
+.footer__icon {
+	width: 33px;
+	height: 33px;
+	}
+.footer__logo {
+	width: 115px;
+	height: 68px;
+	}
+.footer__itemImage {
+	width: 27px;
+height: 27px;
+	}
+}
